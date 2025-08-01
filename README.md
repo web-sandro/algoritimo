@@ -1,89 +1,149 @@
-aprenda casa 
-quadrado 
-
-pf (100)
-pe (90)
-
-triangulo
-
-pe (90)
-pf (100)
-pe (90)
-parafrente (100)
-paraesquerda (90)
-
-retangulo
-
-parafrente  (100)
-
-losangulo
-
-paradireita (30)
-parafrente 100
-paradireita(90)
-parafrente 75
-paradireita (90)
-
+aprenda casa :a
+dt
+tat
 un
-parafrente 30
+pd 90
+pf :a*2
+pd 90
+pf :a*2
+pd 90
 ul
-
-janela
-
+escreva [ fabricando linhas ]
+linhas :a
 un
-paraesquerda (90)
-parafrente 30
-paradireita (90)
-parafrente 45
-parafrente 65 
-paradireita (90)
-
-ul 
-
-porta
-
-paraesquerda (90)
-
-
+pe 180
+pf :a/2*7
+pd 90
+ul
+escreva [ fabricando quadrado ]
+quadrado :a
+pf :a
+pd 30
+escreva [ fabricando triangulo ]
+triangulo :a
+escreva [ fabricando paralelogramo ]
+paralelogramo :a
+un
+pf :a*0.33
+pd 90
+pf :a*1.125
+pe 90
+ul
+retangulo  :a*0.20 :a*0.8 
+pf :a*0.8
+pe 90
+pf :a*0.075
+pd 90
+pf :a*0.1
+pd 90
+pf :a*0.34
+pd 90
+pf :a*0.1
+pd 90
+pf :a*0.265
+pe 90
+pf :a*0.80
+un
+pd 90
+pf :a*1.1245
+pe 90
+pf :a*0.33
+pf :a
+pd 180
+ul
+retangulo :a*2 :a
+un
+pd 90
+pf :a*0.25
+pe 90
+pf :a*0.35
+ul
+pf :a*0.3
+pd 90
+pf :a*0.5
+pd 90
+pf :a*0.3
+pd 90
+pf :a *0.5
+pd 180
+un
+pf :a
+pe 90
+ul
+pf :a*0.3
+pd 90
+pf :a*0.5
+pd 90
+pf :a*0.3
+pd 90
+pf :a *0.5
+pe 90
+un
+pf :a*0.35
+pd 90
+pf :a*1.58
+pd 90
+ul
+pf :a*0.66
+pe 90
+pf :a*0.33 +1
+pe 90
+pf :a*0.66
 fim
 
-aprenda janela
-parafrente 30
-paradireita (90)
-parafrente 30
-paradireita (90)
-parafrente 30
-paradireita (90)
-parafrente 30
+aprenda linhas :a
+pf :a*4
+pd 90
+un
+pf :a/100*4
+ul
+pd 90
+pf :a*4
+pe 90
+un
+pf :a/100*4
+pe 90
+ul
+pf :a*4
+pd 90
+un
+pf :a/100*4
+pd 90
+ul
+pf :a*4
 fim
 
-aprenda losangulo
-paraesquerda 30 
-parafrente (100)
-paradireita 120 
-parafrente (120)
-paradireita 60
-parafrente (100)
+aprenda paralelogramo :a
+pd 60
+pf :a
+pd 120
+pf :a*1.63
+un
+pf :a*0.20
+ul
+pf :a*0.17
+pd 60
+pf :a
+pd 120
+pf :a*2
+pd 90
 fim
 
-aprenda porta
-parafrente 60
-paradireita (90)
-parafrente 30
-paradireita (90)
-parafrente 60
+aprenda quadrado :a
+repita 4 [ pf :a pd 90 ]
 fim
 
-aprenda quadrado 
-repita 4 [  parafrente (100) paradireita (90) ]
+aprenda retangulo :base :altura
+pf :altura
+pd 90
+pf :base
+pd 90
+pf :altura
+pd 90
+pf :base
+pd 90
 fim
 
-aprenda retangulo
-repita 2 [ parafrente (100) paradireita (90) parafrente (120) paradireita (90) ]
-fim
-
-aprenda triangulo
-paradireita 120 parafrente (100)
-paradireita 120 parafrente (100)
-paradireita 120 parafrente (100)
+aprenda triangulo :a
+repita 2 [ pf :a pd 120 ]
 fim
