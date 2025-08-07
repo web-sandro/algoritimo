@@ -196,7 +196,7 @@ Faça um algoritmo que receba dois números e ao final mostre a
 soma, subtração, multiplicação e a divisão dos números lidos.
 
 
-Algoritmo "Resultado da soma"
+Algoritmo "Resultado da soma, subtracao, multiplicacao, divisao"
 //   aça um algoritmo que receba dois números e ao final mostre a
 //   soma, subtração, multiplicação e a divisão dos números lidos.
 
@@ -217,12 +217,11 @@ Inicio
       divisao<-num1/num2
       escreval("Equações")
       escreval(num1," + ",num2, " = ", soma)
-      escreval(num1," + ",num2, " = ", subtracao)
-      escreval(num1," + ",num2, " = ", multiplicacao)
-      escreval(num1," + ",num2, " = ", divisao)
+      escreval(num1," - ",num2, " = ", subtracao)
+      escreval(num1," * ",num2, " = ", multiplicacao)
+      escreval(num1," / ",num2, " = ", divisao)
 
 Fimalgoritmo
-
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Escrever um algoritmo para determinar o consumo médio de um automóvel sendo fornecida 
